@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1617828547 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e4\calculo.c
+	"calculo.h"
+
+1617825065 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e4\calculo.h
+
+1617826491 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e4\validacion.c
+	"validacion.h"
+
+1617825141 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e4\validacion.h
+
+1617827434 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e4\main.c
+	"main.h"
+
+1617903636 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e4\main.h
+	<stdio.h>
+	<stdlib.h>
+	"../../Biblioteca/Matematicas/matematicas.h"
+	"validacion.h"
+
+1617903260 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\biblioteca\matematicas\matematicas.h
+
+1617903263 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\biblioteca\matematicas\matematicas.c
+	"matematicas.h"
+
+1617903263 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\matematicas\matematicas.c
+	"matematicas.h"
+
+1617903260 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\matematicas\matematicas.h
+

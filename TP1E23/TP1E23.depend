@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1618597500 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\vectores\vectores.c
+	"vectores.h"
+
+1618596965 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\vectores\vectores.h
+	<stdio.h>
+	<stdlib.h>
+
+1618599939 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e23\main.c
+	"main.h"
+
+1618595753 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e23\main.h
+	<stdio.h>
+	<stdlib.h>
+	"../Biblioteca/Vectores/vectores.h"
+

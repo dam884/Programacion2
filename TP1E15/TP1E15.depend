@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1618115959 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\fechas\fechas.c
+	"fechas.h"
+
+1618114994 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\fechas\fechas.h
+	<stdio.h>
+	<stdlib.h>
+
+1618116106 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e15\main.c
+	"main.h"
+
+1618114573 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e15\main.h
+	<stdio.h>
+	<stdlib.h>
+	"../Biblioteca/Fechas/fechas.h"
+

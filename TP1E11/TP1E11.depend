@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1617987460 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\matematicas\matematicas.c
+	"matematicas.h"
+
+1617987216 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\matematicas\matematicas.h
+
+1617987216 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e11\main.c
+	"main.h"
+
+1617985762 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e11\main.h
+	<stdio.h>
+	<stdlib.h>
+	"../Biblioteca/Matematicas/matematicas.h"
+
