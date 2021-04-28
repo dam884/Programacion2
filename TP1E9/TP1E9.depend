@@ -2,12 +2,31 @@
 1618011995 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\matematicas\matematicas.c
 	"matematicas.h"
 
+1618011995 as.h"
+
 1618011932 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\biblioteca\matematicas\matematicas.h
 
 1617984367 source:c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e9\main.c
 	"main.h"
 
+1617984367 
+
 1617977699 c:\users\danie\onedrive - universidad nacional de la matanza\materias\programación\dev\tp1e9\main.h
+	<stdio.h>
+	<stdlib.h>
+	"../Biblioteca/Matematicas/matematicas.h"
+
+1617977699 teca/Matematicas/matematicas.h"
+
+1619313000 source:/home/daniel/dev/Programacion2/Biblioteca/Matematicas/matematicas.c
+	"matematicas.h"
+
+1619313000 /home/daniel/dev/Programacion2/Biblioteca/Matematicas/matematicas.h
+
+1619313060 source:/home/daniel/dev/Programacion2/TP1E9/main.c
+	"main.h"
+
+1619313060 /home/daniel/dev/Programacion2/TP1E9/main.h
 	<stdio.h>
 	<stdlib.h>
 	"../Biblioteca/Matematicas/matematicas.h"
