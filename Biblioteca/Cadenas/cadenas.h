@@ -4,4 +4,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MAX 1000
+
+int esCadenaVacia(char* cad);
+int esPalindromo(char* cad);
+
 #endif // CADENAS_H_INCLUDED
