@@ -48,16 +48,15 @@ void borrarPrimeraAparicion(int* v, int n)
 {
     int pos = 0;
 
-    while(*(v + pos) != n)
+    while(*(v + pos) != n) // Mientras no se encuentre el numero sigue.
     {
         pos++;
 
-        if(pos >= TAM)
+        if(pos >= TAM) // Si se acaba el arreglo se termina.
             return;
-
     }
 
-    *(v + pos) = 0;
+    *(v + pos) = 0; // Como no se terminó, se encontró el número.
 
     return;
 }
@@ -66,9 +65,9 @@ void borrarTodos(int* v, int n)
 {
     int pos = 0;
 
-    while(pos < TAM)
+    while(pos < TAM) // Mientras no se acabe el arreglo
     {
-        if(*(v + pos) == n)
+        if(*(v + pos) == n) // Si es el número se borra.
             *(v + pos) = 0;
 
         pos++;
