@@ -48,13 +48,31 @@ void borrarPrimeraAparicion(int* v, int n)
 {
     int pos = 0;
 
-    while(pos < TAM && *(v + pos) != n)
+    while(*(v + pos) != n)
     {
         pos++;
+
+        if(pos >= TAM)
+            return;
+
     }
 
-    if(*(v + pos) == n)
-        *(v + pos) = 0;
+    *(v + pos) = 0;
+
+    return;
+}
+
+void borrarTodos(int* v, int n)
+{
+    int pos = 0;
+
+    while(pos < TAM)
+    {
+        if(*(v + pos) == n)
+            *(v + pos) = 0;
+
+        pos++;
+    }
 
     return;
 }

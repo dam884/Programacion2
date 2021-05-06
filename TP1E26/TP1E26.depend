@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1620317541 source:c:\dev\programacion2\biblioteca\vectores\vectores.c
+1620319593 source:c:\dev\programacion2\biblioteca\vectores\vectores.c
 	"vectores.h"
 
 1620319250 c:\dev\programacion2\biblioteca\vectores\vectores.h
 	<stdio.h>
 	<stdlib.h>
 
-1620317561 source:c:\dev\programacion2\tp1e25\main.c
+1620319510 source:c:\dev\programacion2\tp1e26\main.c
 	"main.h"
 
-1620315434 c:\dev\programacion2\tp1e25\main.h
+1620319250 c:\dev\programacion2\tp1e26\main.h
 	<stdio.h>
 	<stdlib.h>
 	"../Biblioteca/Vectores/vectores.h"
