@@ -2,6 +2,13 @@
 
 int main()
 {
+    // Si el vector está completo, se puede interpretar de dos maneras.
+    // La más clásica sería que no se inserte el nuevo elemento y se
+    // devuelva algún código relacionado.
+    // La otra es que se deseche el último elemento al agregar uno nuevo.
+    // Este último acercamiento es menos tradicional pero podría ser el
+    // indicado para algunas implementaciones.
+
     int v[] = {1,1,2,3,5,8,13,21,34,55};
     int n;
 
