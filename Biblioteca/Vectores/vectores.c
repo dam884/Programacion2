@@ -43,3 +43,18 @@ void insertEnVectorOrdenado(int* v, int n)
     }
     return;
 }
+
+void borrarPrimeraAparicion(int* v, int n)
+{
+    int pos = 0;
+
+    while(pos < TAM && *(v + pos) != n)
+    {
+        pos++;
+    }
+
+    if(*(v + pos) == n)
+        *(v + pos) = 0;
+
+    return;
+}

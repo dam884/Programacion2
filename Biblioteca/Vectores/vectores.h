@@ -10,5 +10,6 @@ void iniVector(int* v, int tamanio);
 void imprimirVector(int* v, int tamanio);
 void insertValorVector(int* v, int valor, int pos);
 void insertEnVectorOrdenado(int* v, int n);
+void borrarPrimeraAparicion(int* v, int n);
 
 #endif // VECTORES_H_INCLUDED
