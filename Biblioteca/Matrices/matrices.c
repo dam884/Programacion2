@@ -55,3 +55,35 @@ int sumaDebajoDiagPpalInc(int* m, int orden)
 
     return acum;
 }
+
+int sumaDiagonalPpal(int* m, int orden)
+{
+    int acum=0;
+
+    for(int i=0;i < orden;i++)
+        acum += *(m+i*(orden+1));
+
+    return acum;
+}
+
+int sumaDiagonalSec(int* m, int orden)
+{
+    int acum=0;
+
+    for(int i=1;i <= orden;i++)
+        acum += *(m+i*(orden-1));
+
+    return acum;
+}
+
+void imprimirMatriz(int* m, int orden)
+{
+    for(int i=0; i<orden; i++)
+    {
+        printf("|\t");
+        for(int j=0; j<orden; j++)
+            printf("%d\t",*(m+i*orden+j));
+        printf("|\n");
+    }
+    return;
+}
