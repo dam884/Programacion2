@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1620682595 source:c:\dev\programacion2\tp1e29\main.c
+	"main.h"
+
+1620324947 c:\dev\programacion2\tp1e29\main.h
+	<stdio.h>
+	<stdlib.h>
+
+1620682595 source:c:\dev\programacion2\biblioteca\matrices\matrices.c
+	"matrices.h"
+
+1620681725 c:\dev\programacion2\biblioteca\matrices\matrices.h
+	<stdio.h>
+	<stdlib.h>
+
