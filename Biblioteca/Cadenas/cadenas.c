@@ -53,4 +53,39 @@ int esPalindromo(char* cad)
     return 1;
 }
 
+int atoiMio(char* cad)
+{
+    // int cont=0;
+    int acum=0, signo=1;
+
+    while(*cad < '!')
+        cad++;
+
+    if(*cad == '-')
+    {
+        signo*=-1;
+        cad++;
+    }
+
+    for(;*cad >= '0' && *cad <= '9'; cad++)
+        acum = acum * 10 + *cad - '0';
+
+//    while(*(cad+1) >= '0' && *(cad+1) <= '9')
+//    {
+//        cad++;
+//        cont++;
+//    }
+
+//    if(cont == 0)
+//        return 0;
+//
+//    for(int i=0;i<=cont; i++)
+//    {
+//        acum+=(*cad-48)* signo * pow(10,i);
+//        cad--;
+//    }
+
+    return signo * acum;
+}
+
 

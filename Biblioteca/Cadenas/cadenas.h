@@ -8,5 +8,6 @@
 
 int esCadenaVacia(char* cad);
 int esPalindromo(char* cad);
+int atoiMio(char* cad);
 
 #endif // CADENAS_H_INCLUDED
