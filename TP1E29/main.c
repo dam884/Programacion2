@@ -1,6 +1,6 @@
 #include "main.h"
 
-#define ORD 4
+#define ORD 5
 
 int main()
 {
@@ -8,8 +8,8 @@ int main()
     puts("Matrices - Sumar elementos");
     puts("--------------------------");
 
-    int eleccion;
-    int m[ORD][ORD]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
+    int eleccion, res=0;
+    int m[ORD][ORD]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25};
 
     while(1)
     {
@@ -17,19 +17,24 @@ int main()
         scanf("%d", &eleccion);
 
         if(eleccion == 1)
-            printf("\nEl resultado es: %d\n\n", sumaArribaDiagPpal(m,ORD));
+            res = sumaArribaDiagPpal(m,ORD);
 
         if(eleccion == 2)
-            printf("\nEl resultado es: %d\n\n", sumaArribaDiagSec(m,ORD));
+            res = sumaArribaDiagSec(m,ORD);
 
         if(eleccion == 3)
-            printf("\nEl resultado es: %d\n\n", sumaArribaDiagPpalInc(m,ORD));
+            res = sumaArribaDiagPpalInc(m,ORD);
 
         if(eleccion == 4)
-            printf("\nEl resultado es: %d\n\n", sumaDebajoDiagPpal(m,ORD));
+            res = sumaDebajoDiagPpal(m,ORD);
 
         if(eleccion == 5)
-            printf("\nEl resultado es: %d\n\n", sumaDebajoDiagPpalInc(m,ORD));
+            res = sumaDebajoDiagPpalInc(m,ORD);
+
+        if(eleccion < 1 || eleccion > 5)
+            puts("\nError: valor no valido.\n");
+        else
+            printf("\nEl resultado es: %d\n\n", res);
     }
 
     return 0;
