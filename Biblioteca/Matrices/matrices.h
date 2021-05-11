@@ -10,5 +10,6 @@ int sumaArribaDiagPpalInc(int* m, int orden);
 int sumaDiagonalPpal(int* m, int orden);
 int sumaDiagonalSec(int* m, int orden);
 void imprimirMatriz(int* m, int orden);
+int esMatrizDiagonal(int* m, int orden);
 
 #endif // MATRICES_H_INCLUDED

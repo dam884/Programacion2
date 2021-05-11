@@ -81,9 +81,28 @@ void imprimirMatriz(int* m, int orden)
     for(int i=0; i<orden; i++)
     {
         printf("|\t");
+
         for(int j=0; j<orden; j++)
             printf("%d\t",*(m+i*orden+j));
-        printf("|\n");
+
+        printf("|\n\n");
     }
     return;
+}
+
+int esMatrizDiagonal(int* m, int orden)
+{
+    // Parte superior
+    for(int i=0; i<orden ; i++)
+        for(int j=i+1; j<orden ; j++)
+            if(*(m+i*orden+j))
+                return 0;
+
+    // Parte inferior
+    for(int i=1; i<orden ; i++)
+        for(int j=0; j<i ; j++)
+            if(*(m+i*orden+j))
+                return 0;
+
+    return 1;
 }
