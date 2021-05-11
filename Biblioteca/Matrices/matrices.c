@@ -148,3 +148,19 @@ void trasponerMatriz(int* m, int orden)
 
     return;
 }
+
+void matrizTranspuesta(int* m, int* n, int orden)
+{
+    for(int i=0; i<orden ; i++)
+        for(int j=i; j<orden ; j++)
+        {
+            *(n+i*orden+j) = *(m+j*orden+i);
+
+            // En el caso que pertenezca a la diagonal
+            // no es necesario copiarlo dos veces.
+            if(i!=j)
+                *(n+j*orden+i) = *(m+i*orden+j);
+        }
+
+    return;
+}
