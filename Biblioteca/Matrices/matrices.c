@@ -92,17 +92,24 @@ void imprimirMatriz(int* m, int orden)
 
 int esMatrizDiagonal(int* m, int orden)
 {
-    // Parte superior
+    // Mejorado después de realizar TP1E33
+    // Revisa la parte superior e inferior al mismo tiempo
     for(int i=0; i<orden ; i++)
         for(int j=i+1; j<orden ; j++)
-            if(*(m+i*orden+j))
+            if(*(m+i*orden+j) || *(m+j*orden+i))
                 return 0;
 
+    // Parte superior
+//    for(int i=0; i<orden ; i++)
+//        for(int j=i+1; j<orden ; j++)
+//            if(*(m+i*orden+j))
+//                return 0;
+
     // Parte inferior
-    for(int i=1; i<orden ; i++)
-        for(int j=0; j<i ; j++)
-            if(*(m+i*orden+j))
-                return 0;
+//    for(int i=1; i<orden ; i++)
+//        for(int j=0; j<i ; j++)
+//            if(*(m+i*orden+j))
+//                return 0;
 
     return 1;
 }
@@ -119,7 +126,6 @@ int esMatrizIdentidad(int* m, int orden)
 
 int esSimetrica(int* m, int orden)
 {
-    // Parte superior
     for(int i=0; i<orden ; i++)
         for(int j=i+1; j<orden ; j++)
             if(*(m+i*orden+j) != *(m+j*orden+i))
