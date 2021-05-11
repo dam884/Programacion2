@@ -13,6 +13,6 @@ void imprimirMatriz(int* m, int orden);
 int esMatrizDiagonal(int* m, int orden);
 int esMatrizIdentidad(int* m, int orden);
 int esSimetrica(int* m, int orden);
-void transponerMatriz(int* m, int orden);
+void trasponerMatriz(int* m, int orden);
 
 #endif // MATRICES_H_INCLUDED

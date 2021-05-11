@@ -14,7 +14,7 @@ int main()
     puts("Matriz:\n");
     imprimirMatriz(m, ORDEN);
 
-    transponerMatriz(m, ORDEN);
+    trasponerMatriz(m, ORDEN);
 
     puts("Matriz transpuesta:\n");
     imprimirMatriz(m, ORDEN);

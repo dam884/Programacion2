@@ -134,7 +134,7 @@ int esSimetrica(int* m, int orden)
     return 1;
 }
 
-void transponerMatriz(int* m, int orden)
+void trasponerMatriz(int* m, int orden)
 {
     int aux=0;
 
