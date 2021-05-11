@@ -133,3 +133,18 @@ int esSimetrica(int* m, int orden)
 
     return 1;
 }
+
+void transponerMatriz(int* m, int orden)
+{
+    int aux=0;
+
+    for(int i=0; i<orden ; i++)
+        for(int j=i+1; j<orden ; j++)
+        {
+            aux = *(m+i*orden+j);
+            *(m+i*orden+j) = *(m+j*orden+i);
+            *(m+j*orden+i) = aux;
+        }
+
+    return;
+}
