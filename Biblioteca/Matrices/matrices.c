@@ -106,3 +106,13 @@ int esMatrizDiagonal(int* m, int orden)
 
     return 1;
 }
+
+int esMatrizIdentidad(int* m, int orden)
+{
+    for(int i=0; i<orden ; i++)
+        for(int j=0; j<orden ; j++)
+            if(*(m+i*orden+j) != 1 && i==j || *(m+i*orden+j) != 0 && i!=j)
+                return 0;
+
+    return 1;
+}
