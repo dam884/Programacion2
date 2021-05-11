@@ -9,7 +9,7 @@ int main()
     puts("------------------------------");
     puts("");
 
-    int m[ORDEN][ORDEN]={1,0,0,0,0,6,0,0,0,0,11,0,0,0,0,16};
+    int m[ORDEN][ORDEN]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
     puts("Matriz:\n");
     imprimirMatriz(m, ORDEN);
