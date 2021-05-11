@@ -116,3 +116,14 @@ int esMatrizIdentidad(int* m, int orden)
 
     return 1;
 }
+
+int esSimetrica(int* m, int orden)
+{
+    // Parte superior
+    for(int i=0; i<orden ; i++)
+        for(int j=i+1; j<orden ; j++)
+            if(*(m+i*orden+j) != *(m+j*orden+i))
+                return 0;
+
+    return 1;
+}
