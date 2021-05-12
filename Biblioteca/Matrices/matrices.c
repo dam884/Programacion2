@@ -169,10 +169,8 @@ void matrizProducto(int* m, int* n, int* res, int orden)
 {
     for(int i=0; i<orden ; i++)
     {
-        int acum = 0;
         for(int j=0; j<orden ; j++)
         {
-            acum+= *(m+i*orden+j) * *(n+j*orden+i);
         }
     }
 
